@@ -194,18 +194,7 @@
   .nav-tabs .nav-link {
     margin-inline-end: 0;
   }
-  .div-tab-toggle {
-    flex-direction: column;
-    .item {
-      margin: 0 0 40px;
-      figure {
-        margin-bottom: 10px;
-      }
-      .anc_package {
-        margin-bottom: 15px;
-      }
-    }
-  }
+
   .tooltip_ {
     inset-inline-end: -9px;
   }
@@ -221,7 +210,6 @@
   }
   .packages_section {
     padding: 80px 0;
-    overflow: auto !important;
   }
   .div_order_now {
     flex-direction: column;

@@ -154,15 +154,48 @@
     </header>
 
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~end header~~~~~~~~~~~~~~~~~~~~~~~ -->
-
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~start banner~~~~~~~~~~~~~~~~~~~~~ -->
     <main class="section-banner">
       <div class="banner">
-        <a href="#" class="anc_banner anc_gh">
-          <figure>
-            <img src="images/main.jpg" alt="img banner" />
-          </figure>
-        </a>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="anc_banner anc_gh">
+                <figure>
+                  <img src="images/main.jpg" alt="img banner" />
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="anc_banner anc_gh">
+                <figure>
+                  <img src="images/car.png" alt="img banner" />
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="anc_banner anc_gh">
+                <figure>
+                  <img src="images/main.jpg" alt="img banner" />
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="anc_banner anc_gh">
+                <figure>
+                  <img src="images/main.jpg" alt="img banner" />
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next">
+          <i class="la la-arrow-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="la la-arrow-left"></i>
+        </div>
       </div>
     </main>
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~end banner~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -171,8 +204,8 @@
 
     <section class="packages_section" id="id-package">
       <div class="title_div">
-        <h4 class="m_P_gh">Services we provide professionally</h4>
-        <h2 class="m_P_gh">Packages</h2>
+        <h4 class="m_P_gh">خدمات نقدمها بإحترافية</h4>
+        <h2 class="m_P_gh">الباقات</h2>
       </div>
       <div class="container">
         <div class="packages">
@@ -186,7 +219,7 @@
                 role="tab"
                 aria-controls="home"
                 aria-selected="true"
-                >One time wash</a
+                >غسيل مرة واحدة</a
               >
             </li>
             <li class="nav-item" role="presentation">
@@ -198,10 +231,9 @@
                 role="tab"
                 aria-controls="profile"
                 aria-selected="false"
+                >غسيل اشتراك شهري</a
               >
-                Monthly subscription</a
-              >
-              <span class="tooltip_"> special offers</span>
+              <span class="tooltip_">عروض مميــزة</span>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -212,40 +244,128 @@
               aria-labelledby="home-tab"
             >
               <div class="div-tab-toggle">
-                <div class="item">
-                  <a href="#" class="anc_package anc_gh">
-                    <figure>
-                      <img src="images/order/package1.jpg" alt="package" />
-                    </figure>
-                    Steam wash package
-                  </a>
-                  <button class="btn_order_now effects_2 btn_gh click_open_pop">
-                    Order now
-                  </button>
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <a href="#" class="anc_package anc_gh">
+                          <figure>
+                            <img
+                              src="images/order/package1.jpg"
+                              alt="package"
+                            />
+                          </figure>
+                          باقة الغسيل بالبخار
+                        </a>
+                        <button
+                          class="btn_order_now effects_2 btn_gh click_open_pop"
+                        >
+                          احجز الآن
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <a href="#" class="anc_package anc_gh">
+                          <figure>
+                            <img
+                              src="images/order/package2.jpg"
+                              alt="package"
+                            />
+                          </figure>
+                          باقة الغسيل بالماء
+                        </a>
+                        <button
+                          class="btn_order_now effects_2 btn_gh click_open_pop"
+                        >
+                          احجز الآن
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <a href="#" class="anc_package anc_gh">
+                          <figure>
+                            <img
+                              src="images/order/package3.png"
+                              alt="package"
+                            />
+                          </figure>
+                          باقة الغسيل والتلميع الشامل
+                        </a>
+                        <button
+                          class="btn_order_now effects_2 btn_gh click_open_pop"
+                        >
+                          احجز الآن
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <a href="#" class="anc_package anc_gh">
+                          <figure>
+                            <img
+                              src="images/order/package1.jpg"
+                              alt="package"
+                            />
+                          </figure>
+                          باقة الغسيل بالبخار
+                        </a>
+                        <button
+                          class="btn_order_now effects_2 btn_gh click_open_pop"
+                        >
+                          احجز الآن
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <a href="#" class="anc_package anc_gh">
+                          <figure>
+                            <img
+                              src="images/order/package2.jpg"
+                              alt="package"
+                            />
+                          </figure>
+                          باقة الغسيل بالماء
+                        </a>
+                        <button
+                          class="btn_order_now effects_2 btn_gh click_open_pop"
+                        >
+                          احجز الآن
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <a href="#" class="anc_package anc_gh">
+                          <figure>
+                            <img
+                              src="images/order/package3.png"
+                              alt="package"
+                            />
+                          </figure>
+                          باقة الغسيل والتلميع الشامل
+                        </a>
+                        <button
+                          class="btn_order_now effects_2 btn_gh click_open_pop"
+                        >
+                          احجز الآن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="item">
-                  <a href="#" class="anc_package anc_gh">
-                    <figure>
-                      <img src="images/order/package2.jpg" alt="package" />
-                    </figure>
-                    Water wash package
-                  </a>
-                  <button class="btn_order_now effects_2 btn_gh click_open_pop">
-                    Order now
-                  </button>
-                </div>
-                <div class="item">
-                  <a href="#" class="anc_package anc_gh">
-                    <figure>
-                      <img src="images/order/package3.png" alt="package" />
-                    </figure>
-                    package washing and polishing package
-                  </a>
-                  <button class="btn_order_now effects_2 btn_gh click_open_pop">
-                    Order now
-                  </button>
-                </div>
+
+                
               </div>
+              <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">
+                  <i class="la la-arrow-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                  <i class="la la-arrow-left"></i>
+                </div>
             </div>
             <div
               class="tab-pane fade"
@@ -254,41 +374,58 @@
               aria-labelledby="profile-tab"
             >
               <div class="div-tab-toggle">
-                <div class="item">
-                  <a href="#" class="anc_package anc_gh">
-                    <figure>
-                      <img src="images/order/package1.jpg" alt="package" />
-                    </figure>
-                    Steam wash package
-                  </a>
-                  <button class="btn_order_now effects_2 btn_gh click_open_pop">
-                    Order now
-                  </button>
-                </div>
-                <div class="item">
-                  <a href="#" class="anc_package anc_gh">
-                    <figure>
-                      <img src="images/order/package2.jpg" alt="package" />
-                    </figure>
-                    Water wash package
-                  </a>
-                  <button class="btn_order_now effects_2 btn_gh click_open_pop">
-                    Order now
-                  </button>
-                </div>
-                <div class="item">
-                  <a href="#" class="anc_package anc_gh">
-                    <figure>
-                      <img src="images/order/package3.png" alt="package" />
-                    </figure>
-                    package washing and polishing package
-                  </a>
-                  <button class="btn_order_now effects_2 btn_gh click_open_pop">
-                    Order now
-                  </button>
-                </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+              <div class="item">
+                <a href="#" class="anc_package anc_gh">
+                  <figure>
+                    <img src="images/order/package1.jpg" alt="package" />
+                  </figure>
+                  باقة الغسيل بالبخار
+                </a>
+                <button class="btn_order_now effects_2 btn_gh click_open_pop">
+                  احجز الآن
+                </button>
+              </div>
+                    </div>
+                    <div class="swiper-slide">
+
+              <div class="item">
+                <a href="#" class="anc_package anc_gh">
+                  <figure>
+                    <img src="images/order/package3.png" alt="package" />
+                  </figure>
+                  باقة الغسيل والتلميع الشامل
+                </a>
+                <button class="btn_order_now effects_2 btn_gh click_open_pop">
+                  احجز الآن
+                </button>
+              </div>
+                    </div>
+                    <div class="swiper-slide">
+              <div class="item">
+                <a href="#" class="anc_package anc_gh">
+                  <figure>
+                    <img src="images/order/package2.jpg" alt="package" />
+                  </figure>
+                  باقة الغسيل بالماء
+                </a>
+                <button class="btn_order_now effects_2 btn_gh click_open_pop">
+                  احجز الآن
+                </button>
+              </div>
+                    </div>
+                  </div>
               </div>
             </div>
+            <div class="swiper-pagination"></div>
+        <div class="swiper-button-next">
+          <i class="la la-arrow-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="la la-arrow-left"></i>
+        </div>
           </div>
         </div>
       </div>
