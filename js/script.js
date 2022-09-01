@@ -55,8 +55,8 @@ $(document).ready(function () {
     loop: true,
     loopFillGroupWithBlank: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".service-models .swiper-button-next",
+      prevEl: ".service-models .swiper-button-prev",
     },
     pagination: {
       el: ".service-models .swiper-pagination",
@@ -88,8 +88,8 @@ $(document).ready(function () {
     loop: true,
     loopFillGroupWithBlank: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".banner .swiper-button-next",
+      prevEl: ".banner .swiper-button-prev",
     },
     pagination: {
       el: ".banner .swiper-pagination",
