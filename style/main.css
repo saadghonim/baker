@@ -1110,13 +1110,18 @@ div.panel {
 }
 
 .div-tab-toggle .item .anc_package {
-  font-size: 16px;
-  color: #000000;
-  text-align: center;
   display: -ms-inline-grid;
   display: inline-grid;
   margin-bottom: 20px;
   width: 100%;
+}
+
+.div-tab-toggle .item .anc_package h3 {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  height: 39px;
 }
 
 .div-tab-toggle .item .anc_package:hover img {
@@ -1290,6 +1295,10 @@ div.panel {
           justify-content: center;
   text-align: center;
   border-radius: 50%;
+}
+
+html[dir="ltr"] .tooltip_ {
+  font-size: 12px;
 }
 
 .tooltip_::after {

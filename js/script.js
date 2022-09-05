@@ -48,37 +48,6 @@ $(document).ready(function () {
   // ~~~~~~~~~~~~~~~
 
   // swiper js
-  var swiper = new Swiper(".service-models .mySwiper", {
-    slidesPerView: "auto",
-    spaceBetween: 30,
-    freeMode: true,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    navigation: {
-      nextEl: ".service-models .swiper-button-next",
-      prevEl: ".service-models .swiper-button-prev",
-    },
-    pagination: {
-      el: ".service-models .swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      767: {
-        slidesPerView: 2,
-      },
-      992: {
-        slidesPerView: 3,
-      },
-      1199: {
-        slidesPerView: 3,
-      },
-    },
-  });
-
-  // swiper js
   var swiper = new Swiper(".banner .mySwiper", {
     slidesPerView: "auto",
     loop: true,
@@ -86,7 +55,14 @@ $(document).ready(function () {
     autoplay: true,
     observeParents: true,
     loop: true,
+    speed: 4000,
+    loop: true,
     loopFillGroupWithBlank: true,
+    slidesPerView: "auto",
+    autoplay: {
+      enabled: true,
+      delay: 1,
+    },
     navigation: {
       nextEl: ".banner .swiper-button-next",
       prevEl: ".banner .swiper-button-prev",
@@ -115,9 +91,10 @@ $(document).ready(function () {
     slidesPerView: "auto",
     loop: true,
     observer: true,
-    // autoplay: true,
+    autoplay: true,
     observeParents: true,
     loop: true,
+
     loopFillGroupWithBlank: true,
     navigation: {
       nextEl: ".slider1 .swiper-button-next",
@@ -146,7 +123,7 @@ $(document).ready(function () {
     slidesPerView: "auto",
     loop: true,
     observer: true,
-    // autoplay: true,
+    autoplay: true,
     observeParents: true,
     loop: true,
     loopFillGroupWithBlank: true,
