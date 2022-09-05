@@ -27,7 +27,7 @@ nav {
   z-index: 99;
   padding-top: 0;
   .ul_nav {
-    @include flex-var(flex, center, space-between);
+    @include flex-var(flex, center, center);
     li {
       &:hover {
         .anc_nav {
@@ -120,6 +120,7 @@ nav {
   }
   nav {
     padding-top: 20px;
+    width: 100%;
     .ul_nav {
       li {
         .anc_nav {

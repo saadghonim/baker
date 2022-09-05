@@ -1765,9 +1765,9 @@ nav .ul_nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav .ul_nav li:hover .anc_nav {
@@ -1881,6 +1881,7 @@ nav .ul_nav li .anc_nav:hover {
   }
   nav {
     padding-top: 20px;
+    width: 100%;
   }
   nav .ul_nav li .anc_nav {
     padding: 0 10px;
